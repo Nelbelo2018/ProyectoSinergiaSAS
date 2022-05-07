@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qx08w=="
+          crossorigin="anonymous"
+    />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="forms-container-center">
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">Sign Up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="txtNombre" placeholder="Name" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="txtApellido" placeholder="Lastname" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="txtDocumento" placeholder="NºDocumento" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="txtContraseña" placeholder="Password" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="txtrepetirContraseña" placeholder="RepeatPassword" required>
+                    </div>
+                    <button class="btn transparent" ><a onclick="registrarUsuario()" href="#" style="color: white">Registrate</a></button>
+                    <div class="text-center">
+                        <a class="small" href="login.html" style="color:black">Inicia Sesion</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <img src="img/user.svg" alt="" class="image">
+                </div>
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/registrar.js"></script>
+
+
+
+</body>
+</html>
+
